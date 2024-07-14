@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: aquamarine;
+    background-image: url(Image/sea.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.78);
+    }
+
+P {
+    color: rgb(16, 128, 227);
+    text-align: center;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, -50%);
+    font-family: "Bona Nova SC", serif;
+    font-size: x-large;
+}
+
+
+
